@@ -1,6 +1,6 @@
 # BÀI KIỂM TRA HỌC PHẦN - PHÁT TRIỂN ỨNG DỤNG DI ĐỘNG
 
-- Họ và tên: [Điền Họ và Tên sinh viên]
+- Họ và tên: Nguyễn Vũ Huy Hoàng
 - MSSV: 2500113459
 
 ## Ảnh chụp minh chứng Câu 1
