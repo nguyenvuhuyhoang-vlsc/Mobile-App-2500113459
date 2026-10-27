@@ -59,11 +59,13 @@ class LoginActivity : AppCompatActivity() {
             tvStatus.setTextColor(Color.parseColor("#388E3C"))
             tvStatus.text = "Đăng nhập hợp lệ"
 
-            // Chuyển sang ProfileActivity bằng Explicit Intent và truyền Email
+            // Chuyển sang ProfileActivity bằng Explicit Intent và truyền Email sau 1 giây
             val intent = Intent(this, ProfileActivity::class.java).apply {
                 putExtra("EXTRA_EMAIL", email)
             }
-            startActivity(intent)
+            tvStatus.postDelayed({
+                startActivity(intent)
+            }, 1000)
         }
     }
 }
